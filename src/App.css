@@ -1,32 +1,115 @@
-.App {
+.app {
+  background-color: #f5f6fa;
+}
+
+.app__header {
+  background-color: white;
+  border-bottom: 1px solid #edeef2;
+  padding: 7px;
+}
+
+.app__add {
+  border-radius: 3px;
+  border: 0;
+  background-color: #dbe6ff;
+  padding: 6px 8px;
+  cursor: pointer;
+  color: #4b83fd;
+}
+
+.app__add:hover {
+  background-color: #F9F9F9;
+}
+
+.app__aside {
+  background-color: white;
+  width: 200px;
+  padding: 20px 10px;
+  border-right: 1px solid #edeef2;
+}
+
+.app__title {
+  color: #969dae;
+  font-size: 11px;
+  margin-bottom: 6px;
+  margin-bottom: 20px;
+}
+
+.app__country {
+  display: block;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 5px;
+  color: #68676a;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.app__input {
+  border: 1px solid #999;
+  width: 100%;
+  height: 25px;
+  padding: 0 5px;
+  font-size: 12px;
+  margin: 3px 0;
+  border-radius: 2px;
+  color: black;
+  box-sizing: border-box;
+}
+
+.app__view {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 1px solid #D5EAF8;
+  background-color: white;
+  width: 75%;
+  height: 40vh;
+}
+
+.grid {
+  display: flex;
+  height: calc(100vh - 40px);
+}
+
+span{
+  margin-right: 10px;
+}
+
+.time-heading {
+  font-size: 18px;
+  margin: 0;
+}
+
+.time-secondheading {
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.subheading {
+  color: #60ADE2;
+}
+
+.subheading-value {
+  color: #5DADE2;
+  font-weight: bold;
+}
+
+.fa-cloud-sun-rain {
+  font-size: 40px;
+  color: #A9CCE3;
+  margin-bottom: 15px;
+}
+
+.weather--container {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: black;
 }
